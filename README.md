@@ -3,7 +3,7 @@
 ## Introduction
 piXtract is a Python tool that takes in an image file and outputs a .txt file that contains the RGB values of every pixel in the image. The program first asks for a path to the image, then it goes through the pixels of the image left to right, top to bottom, starting from the top left corner. Every RGB value is stored in the format ```[R, G, B]``` and each row of pixels is stored as its own line in the output file. The lines in the resulting file can be used as lists in python as is.
 ## Compatibility and limitations
-Know to work with the following file types: ```.jpg, .png, .bmp.```
+Known to work with the following file types: ```.jpg, .png, .bmp.```
 
 Known __not__ to work with the following file types: ```.gif```
 
